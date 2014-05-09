@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+    height: 800px;
+    color: #666;
+}
+
+#header {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#wrapper {
+    margin: 0px auto;
+    max-width: 980px;
+    text-align: center;
+}
+
+#wrapper img {
+    display: block;
+    margin: 20px auto;
+}
+
+#description {
+    font-size: 90%;
+    font-style: italic;
+    line-height: 140%;
+    margin-bottom: 50px;
+}
+
+#team {
+    overflow: hidden;
+}
+
+.person {
+    border: 1px #ccc solid;
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.person img {
+    width: 220px;
+    height: 220px;
+}
+
+.person-details{
+    text-align: left;
+    margin: 25px;
+}
+
+.person-name {
+    color: #DE1C24 !important;
+    text-style: normal;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.person-skills {
+    font-size: 75%;
+    font-style: italic;
+}
+
+.person-details ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.person-links {
+    font-size: 75%;
+    font-family: Open Sans;
+}
+
+.person-links li{
+    padding-top: 2px;
+}
+
+.person-links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#email-section-title {
+    font-style: italic;
+    margin-top:  40px;
+}
+
+#footer {
+    width: 100%;
+}
