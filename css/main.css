@@ -29,8 +29,17 @@ body {
     margin-bottom: 50px;
 }
 
-#team {
+.team {
     overflow: hidden;
+    margin: 20px auto;
+}
+
+.row-1 {
+    width: 819px;
+}
+
+.row-2 {
+    width: 273px;
 }
 
 .person {
@@ -38,7 +47,6 @@ body {
     width: 250px;
     float: left;
     margin-right: 20px;
-    margin-bottom: 20px;
 }
 
 .person img {
@@ -61,6 +69,7 @@ body {
 .person-skills {
     font-size: 75%;
     font-style: italic;
+    height: 30px;
 }
 
 .person-details ul {
