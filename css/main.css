@@ -2,6 +2,7 @@ body {
     margin: 0px;
     height: 800px;
     color: #666;
+    font-family: Droid Serif;
 }
 
 #header {
@@ -79,7 +80,6 @@ body {
 
 .person-links {
     font-size: 75%;
-    font-family: Open Sans;
 }
 
 .person-links li{
