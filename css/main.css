@@ -23,11 +23,20 @@ body {
     margin: 20px auto;
 }
 
+#wrapper .headline {
+    display: none;
+    font-size: 200%;
+    font-weight: bold;
+    color: linear-gradient(to right, #ff2a68, #ff5e3a);
+}
+
 #description {
-    font-size: 90%;
+    font-size: 100%;
     font-style: italic;
+    font-weight: normal;
     line-height: 140%;
     margin-bottom: 50px;
+    color: #494949;
 }
 
 .team {
