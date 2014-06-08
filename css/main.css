@@ -44,12 +44,8 @@ body {
     margin: 20px auto;
 }
 
-.row-1 {
+.row {
     width: 819px;
-}
-
-.row-2 {
-    width: 546px;
 }
 
 .person {
