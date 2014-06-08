@@ -18,16 +18,18 @@ body {
     text-align: center;
 }
 
-#wrapper img {
-    display: block;
-    margin: 20px auto;
-}
-
 #wrapper .headline {
-    display: none;
     font-size: 200%;
     font-weight: bold;
-    color: linear-gradient(to right, #ff2a68, #ff5e3a);
+    color: #ff4451;
+}
+
+.email {
+    font-size: 200%;
+    font-weight: bold;
+    color: #ff4451;
+    text-decoration: none;
+    margin-bottom: 50px;
 }
 
 #description {
