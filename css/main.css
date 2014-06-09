@@ -51,15 +51,15 @@ body {
 }
 
 .person {
-    border: 1px #ccc solid;
+    border: 1px #fcc solid;
     width: 250px;
     float: left;
     margin-right: 20px;
 }
 
 .person img {
-    width: 220px;
-    height: 220px;
+    width: 250px;
+    height: 250px;
 }
 
 .person-details{
