@@ -24,12 +24,6 @@ body {
     color: #ff4451;
 }
 
-.email {
-    font-size: 200%;
-    font-weight: bold;
-    color: #ff4451;
-    text-decoration: none;
-}
 
 #description {
     font-size: 100%;
@@ -40,19 +34,11 @@ body {
     color: #494949;
 }
 
-.team {
-    overflow: hidden;
-    margin: 20px auto;
-}
-
-.row {
-    width: 819px;
-}
-
 .person {
     border: 1px #fcc solid;
     width: 250px;
     float: left;
+    margin: 20px auto;
     margin-right: 20px;
 }
 
@@ -97,8 +83,15 @@ body {
     color: inherit;
 }
 
-#email-section-title {
+.email {
+    font-size: medium;
+    font-weight: bold;
     font-style: italic;
+    color: #ff4451;
+    text-decoration: none;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align:left;
     margin-top:  40px;
 }
 
@@ -107,4 +100,12 @@ body {
     height: 100px;
     background: linear-gradient(to right, #f1366b, #fe5b3a);
     margin-top: 50px;
+}
+
+.twitter {
+  font-size: medium;
+}
+
+.link {
+    padding-right: 5px;
 }
