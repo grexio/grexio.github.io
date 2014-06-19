@@ -14,7 +14,7 @@ body {
 
 #wrapper {
     margin: 0px auto;
-    max-width: 980px;
+    max-width: 1240px;
     text-align: center;
 }
 
@@ -34,35 +34,41 @@ body {
     color: #494949;
 }
 
+#team-members {
+    padding: 20px 0;
+    overflow: hidden;
+}
+
 .person {
-    border: 1px #fcc solid;
-    width: 250px;
-    float: left;
-    margin: 20px auto;
-    margin-right: 20px;
+    display: inline-block;
+    width: 240px;
+    margin: 10px 8px;
+    padding: 20px;
+    border: 1px #ccc solid;
 }
 
 .person img {
-    width: 250px;
-    height: 250px;
+    width: 240px;
+    height: 240px;
 }
 
 .person-details{
     text-align: left;
-    margin: 25px;
+    margin-bottom: 5px;
 }
 
 .person-name {
-    color: #DE1C24 !important;
-    text-style: normal;
-    margin-top: -10px;
-    margin-bottom: -10px;
+    color: #DE1C24;
+    color: rgba(222,28,36,.7);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 15px 0 5px 0;
 }
 
 .person-skills {
     font-size: 75%;
     font-style: italic;
-    height: 30px;
+    margin: 5px 0;
 }
 
 .person-details ul {
