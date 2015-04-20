@@ -1,6 +1,4 @@
 Notes
 =====
 
-This is the code responsible for [grex.io](http://grexio.github.io).
-
-
+This is the code responsible for [grex.software](http://grexio.github.io).
